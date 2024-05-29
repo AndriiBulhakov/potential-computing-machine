@@ -81,7 +81,7 @@ const Hero = () => {
   }, [])
 
   return (
-    <header className="flex flex-col justify-center items-center text-center overflow-hidden max-w-[48rem] h-[100dvh] lg:max-h-[53.125rem] xs:max-h-none mx-auto sm:px-5 xs:px-4 sm:pb-5xl lg:pb-[12svh] xs:pb-[12.44rem] lg:pt-[14svh] sm:pt-[12.5rem] xs:pt-[9.75rem]">
+    <header className="flex flex-col justify-center items-center text-center overflow-hidden max-w-[48rem] lg:h-[100dvh] xs:h-auto lg:max-h-[53.125rem] xs:max-h-none mx-auto sm:px-5 xs:px-4 sm:pb-5xl lg:pb-[12svh] xs:pb-[12.44rem] lg:pt-[14svh] sm:pt-[12.5rem] xs:pt-[9.75rem]">
       <div className="flex justify-center gap-3 text-left text-xs lg:mb-10 sm:mb-[8.69rem] xs:mb-[4rem] sm:h-[15.6rem] sm:w-[14.5rem] xs:w-[9.875rem] xs:h-[10.625rem] relative">
         <div
           ref={videoDescription1}
